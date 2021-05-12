@@ -67,7 +67,10 @@
      ```sh
       kops validate cluster
     ```
-
+ 1. Export kubeconfig with admin
+     ```sh
+      kops export kubecfg --admin
+    ```
 1. To list nodes
    ```sh
    kubectl get nodes
